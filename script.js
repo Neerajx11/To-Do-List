@@ -16,6 +16,7 @@ let a = 0; let r = 1;
 const addOverlay = () => {
     overlay.classList.add('visible');
     $('body').css('overflow', 'hidden');
+    scrollTo(0,0);
 };
 const removeOverlay = () => {
     overlay.classList.remove('visible');
